@@ -1,0 +1,201 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #c5d2e5;
+    font-weight: bold;
+}
+
+.navtop div a i {
+    padding: 2px 8px 0 0;
+}
+
+.navtop div a:hover {
+    color: #ecf0f6;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.search-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+
+.search-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #19A7CE;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+
+    .search-form input[type="text"],
+    .search-form button {
+        font-size: 14px;
+    }
+}
+
+
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    white-space: pre-line;
+}
+
+.judul-materi {
+    background-color: #f2f2f2;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* File: style.css */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+
+
+/* Navigation */
+nav#navigation ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav#navigation ul li {
+    margin-right: 10px;
+}
+
+header {
+    background-color: #19A7CE;
+    color: #fff;
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    /* menyesuaikan margin dan padding */
+}
+
+h1.title {
+    font-size: 24px;
+    margin: 0;
+}
+
+h3.desc {
+    /* mengubah ukuran teks */
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #eee;
+    color: #555;
+    font-size: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+nav#navigation ul li a {
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav#navigation ul li a:hover {
+    color: #eee;
+}
+
+/* Contents */
+#contents {
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Footer */
